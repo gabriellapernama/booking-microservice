@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "Full stack booking module, potentially to be used for the group project AirBnC",
   "author": "Catherine Ligad",
-  "license": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/airBnC/booking-module"
+    "url": "git+https://github.com/airBnC/booking-module.git"
   },
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
-    "deploy": "npm install && npm run mysqlStart && npm run build && npm start",
-    "start": "nodemon server/index.js",
+    "deploy": "npm install && npm run mysqlStart && npm run build && npsm start",
+    "start": "node server/index.js",
     "build": "webpack --mode production",
     "watch": "webpack -d --watch",
     "test": "jest",
@@ -61,5 +61,11 @@
     "nodemon": "^1.17.5",
     "react-test-renderer": "^16.4.0",
     "sinon": "^6.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/airBnC/booking-module/issues"
+  },
+  "homepage": "https://github.com/airBnC/booking-module#readme",
+  "main": "assetsTransformer.js",
+  "keywords": []
 }

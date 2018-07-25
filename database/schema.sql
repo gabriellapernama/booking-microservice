@@ -3,11 +3,13 @@
 -- mysql -u root < database/populateUserListings.sql
 -- mysql -u root < database/populateOccupiedDates.sql
 
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MyNewPass';
+
 DROP DATABASE IF EXISTS Booking;
 
 CREATE DATABASE Booking;
 USE Booking;
-	
+
 		
 CREATE TABLE user (
   id INTEGER NOT NULL AUTO_INCREMENT,
