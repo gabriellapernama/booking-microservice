@@ -12,7 +12,7 @@ const util = require('util');
 const devConfig = {
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: 'MyNewPass',
   database: 'Booking',
 };
 

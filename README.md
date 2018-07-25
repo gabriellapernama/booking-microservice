@@ -1,6 +1,9 @@
 # AirBnC: A Mock AirBnB Listings Page 
 > This module is the bookings component of the AirBnB listings page.
 
+## Images
+![start of experience](./images/start.png)
+
 ## Related Projects
 
   - https://github.com/airBnC/calendar-module
