@@ -1,13 +1,5 @@
 # AirBnC: A Mock AirBnB Listings Page 
-> This module is the bookings component of the AirBnB listings page.
-
-## Images
-![start of experience](./images/start.png){:height="50%" width="50%"}
-![check in calendar](./images/checkOut.png){:height="50%" width="50%"}
-![check out calendar](./images/checkIn.png){:height="50%" width="50%"}
-![number of guests](./images/guests.png){:height="50%" width="50%"}
-![end of experience](./images/calculator.png){:height="50%" width="50%"}
-
+This module is the bookings component of the AirBnB listings page.
 
 ## Related Projects
 
@@ -32,4 +24,11 @@
 From within the root directory:
 make sure that mysql is running, and that the root user has no password.
 run npm run deploy
+
+## Images
+![start of experience](./images/start.png)<!-- .element height="50%" width="50%" -->
+![check in calendar](./images/checkOut.png)<!-- .element height="50%" width="50%" -->
+![check out calendar](./images/checkIn.png)<!-- .element height="50%" width="50%" -->
+![number of guests](./images/guests.png)<!-- .element height="50%" width="50%" -->
+![end of experience](./images/calculator.png)<!-- .element height="50%" width="50%" -->
 
